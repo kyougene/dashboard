@@ -5,32 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
-    <div class="dashboard">
-        <nav>
-            <a href="" class="title"><img src="svgs/grid.svg" alt="" class="navsvg"><h2>Dashboard</h2></a>
-            <ul class="top-nav">
-                <li><a href=""><img src="svgs/home.svg" alt="" class="navsvg">Home</a></li>
-                <li><a href=""><img src="svgs/card-account-details.svg" alt="" class="navsvg">Profile</a></li>
-                <li><a href=""><img src="svgs/message.svg" alt="" class="navsvg">Message</a></li>
-                <li><a href=""><img src="svgs/clock-time-four.svg" alt="" class="navsvg">History</a></li>
-                <li><a href=""><img src="svgs/file-multiple.svg" alt="" class="navsvg">Tasks</a></li>
-                <li><a href=""><img src="svgs/account-group.svg" alt="" class="navsvg">Communities</a></li>
-            </ul>
-            <ul class="bottom-nav">
-                <li><a href=""><img src="svgs/cog-box.svg" alt="" class="navsvg">Settings</a></li>
-                <li><a href=""><img src="svgs/help-box.svg" alt="" class="navsvg">Help</a></li>
-                <li><a href=""><img src="svgs/shield-check.svg" alt="" class="navsvg">Privacy</a></li>
-             </ul>
-        </nav>
-        <header>
-            
-        </header>
-        <main>
-
-        </main>
-    </div>
+<div class="container">
+    <nav class="sidebar">
+        <span class="logo-icon">
+            <svg class='grid-svg' viewBox = '0 0 24 24'>
+                <use xlink:href="svgs/grid.svg#grid-icon"></use>
+            </svg>
+            <span class="title">Dashboard</span>
+        </span>
+        <ul class="top">
+            <li class="buttons">
+                <a href="#" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/home.svg#home-icon"></use>
+                    </svg>
+                    <span class="home-title">Home</span>
+                </a>
+            </li>
+             <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/card-account-details.svg#profile-icon"></use>
+                    </svg>
+                    <span class="profile-title">Profile</span>
+                </a>
+             </li>
+             <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/message.svg#message-icon"></use>
+                    </svg>
+                    <span class="Message-title">Message</span>
+                </a>
+             </li>
+            <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/clock-time-four.svg#history-icon"></use>
+                    </svg>
+                    <span class="history-title">History</span>
+                </a>
+            </li>
+            <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/file-multiple.svg#tasks-icon"></use>
+                    </svg>
+                    <span class="tasks-title">Tasks</span>
+                </a>
+            </li>
+            <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/account-group.svg#communities-icon"></use>
+                    </svg>
+                    <span class="communities-title">Communities</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="bottom">
+            <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/cog-box.svg#settings-icon"></use>
+                    </svg>
+                    <span class="settings-title">Settings</span>
+                </a>
+            </li>
+            <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/help-box.svg#support-icon"></use>
+                    </svg>
+                    <span class="support-title">Support</span>
+                </a>
+            </li>
+            <li class="buttons">
+                <a href="" class="navbuttons">
+                    <svg class="svg" viewBox = '0 0 24 24'>
+                        <use xlink:href="svgs/shield-check.svg#privacy-icon"></use>
+                    </svg>
+                    <span class="privacy-title">Privacy</span>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <header class="header">
+    
+    </header>
+    
+    
+    <main class="main">
+    
+    </main>
+</div>
+<script src="app.js"></script>
 </body>
 </html>

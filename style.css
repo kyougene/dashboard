@@ -7,63 +7,82 @@
 body{
     width: 100vw;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
-
-
-.dashboard {
-    width: 100%;
+/* Grid layout of page */
+.container {
     height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 15% 85%;
     grid-template-rows: 20% 80%;
 }
-
-nav {
-    background-color:  #1e3a8a;
-    grid-row-start: 1;
-    grid-row-end: 3;
+/* Sidebar grid */
+.sidebar {
+    background-color: #c084fc;
+    grid-area: 1 / 1 / 3 / 2;
+}
+/* Styling for the Dashboard and Logo in Nav Bar */
+.logo-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    margin-left: 5%;
 }
 
+.grid-svg {
+    width: 20%;
+    height: auto;
+    fill: white;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* Styling for navigation buttons */
+
+.svg {
+    fill: white;
+    width: 10%;
+}
+
+.navbuttons {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-left: 8%;
+}
+
+.buttons {
+    margin-bottom: 7%;
+}
+
+.bottom {
+    margin-top: 50%;
+}
+
+
+
+.header {
+    background-color: #e9d5ff;
+}
+
+.main {
+    background-color: #f3e8ff;
+}
+
+/* link styling */
 a {
+    margin: 0;
+    padding: 0;
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
-    text-align: left;
-    margin-left: 25px;;
 }
 
-header {
-    background-color: #bfdbfe;
-}
 
-main {
-    background-color: #dbeafe;
-}
-
-.top-nav {
-    margin-top: 20%;
-    display: grid;
-    gap: 15%;
-}
-
-.bottom-nav {
-    margin-top: 70%;
-    display: grid;
-    gap: 15%;
-}
-
-.navsvg {
-    width: min(25px, 100%);
-    height: min(25px, 100%);
-    margin-right: 10px;
-    
-}
-
-.title {
-    margin-top: 10%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
 
