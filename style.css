@@ -9,6 +9,7 @@ body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
+
 /* Grid layout of page */
 .container {
     height: 100%;
@@ -17,6 +18,7 @@ body{
     grid-template-columns: 15% 85%;
     grid-template-rows: 20% 80%;
 }
+/* ---------------------------------------- */
 /* Sidebar grid */
 .sidebar {
     background-color: #c084fc;
@@ -90,6 +92,7 @@ header {
     grid-template-columns: 60% 40%;
     grid-template-rows: 50% 50%;
 }
+
 /* styling for search button and input */
 .search {
     width: 100%;
@@ -119,6 +122,7 @@ header {
     width: 70%;
     padding: 2%;
 }
+
 /* styling for notifications, logo, and name */
 .notifs {
     width: 100%;
@@ -146,11 +150,70 @@ header {
     border-radius: 50%;
 }
 
+/* Styling for the Hi there, profile picture, and name */
 .name {
     color: black;
     font-weight: bold;
 }
 
+.greeting {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 13%;
+    gap: 2%;
+}
+
+.greeting-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.moomin2 {
+    width: 10%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.hello {
+    margin-bottom: 2%;
+    font-size: .8rem;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Styling for new, upload, and share buttons */
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.headerbutton {
+    border: 1px solid transparent;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #c084fc;
+    height: 50%;
+    width: 20%;
+    color: white;
+}
+
+.headerbutton:active {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) inset;
+    border: 1px solid white;
+}
+
+.headerbutton:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+/* ---------------------------------------- */
 main {
     background-color: #f3e8ff;
     grid-area: 2 / 2 / 3 / 3;
