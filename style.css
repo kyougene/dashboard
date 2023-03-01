@@ -45,7 +45,7 @@ body{
 /* Styling for navigation links */
 
 .top {
-    margin-top: 50%;
+    margin-top: 33%;
 }
 
 .svg {
@@ -56,7 +56,7 @@ body{
 .navbuttons {
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 8%;
     margin-left: 8%;
 }
 
@@ -69,8 +69,12 @@ a {
     font-size: 1.2rem;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .buttons {
-    margin-bottom: 7%;
+    margin-bottom: 10%;
 }
 
 .bottom {
@@ -116,7 +120,36 @@ header {
     padding: 2%;
 }
 /* styling for notifications, logo, and name */
+.notifs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
 
+.notif-icon {
+    height: 50%;
+    width: 5%;
+}
+
+.notif-svg {
+    fill: black;
+    width: 100%;
+    height: 100%;
+}
+
+.moomin {
+    width: 10%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+}
 
 main {
     background-color: #f3e8ff;
